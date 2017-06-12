@@ -1,7 +1,8 @@
 [proxy_all]
 
 [bypass_list]
-^\w+\.(\w+\-?)+\.cdndm5?\.com($|\n)
+^(.*\.)?cdndm5\.com$
+^(.*\.)?cdndm\.com$
 0.0.0.0/8
 10.0.0.0/8
 100.64.0.0/10
