@@ -1,7 +1,7 @@
 [proxy_all]
 
 [bypass_list]
-(^|\w+\.(\w+\-?)+)\.cdndm5?.com(\n|$)
+^\w+\.(\w+\-?)+\.cdndm5?\.com($|\n)
 0.0.0.0/8
 10.0.0.0/8
 100.64.0.0/10
@@ -4440,7 +4440,7 @@
 223.255.252.0/23
 
 [proxy_list]
-^\.mangaapi\.manhuaren\.com$
+^mangaapi\.manhuaren\.com($|\n)
 ^(.*\.)?4tern\.com$
 ^(.*\.)?adorama\.com$
 ^(.*\.)?akiba-web\.com$
